@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Пункт 2</title>
+    </head>
+    <body>
+        <h2>Калькулятор стоимости авто</h2>
+        <div class="form-group">
+            <label class="control-label">Марка автомобиля</label>
+            <select id="brand">
+                <option value="1">NISSAN</option>
+                <option value="2">MMC</option>
+                <option value="3">ISUZU</option>
+                <option value="4">TOYOTA</option>
+                <option value="5">SUZUKI</option>
+                <option value="6">SUBARU</option>
+                <option value="7">DAIHATSU</option>
+                <option value="8">MAZDA</option>
+                <option value="9">HONDA</option>
+            </select>
+            <select id="color">
+                <option value="black">Черный</option>
+                <option value="gray">Серый</option>
+                <option value="white">Белый</option>
+            </select>
+            <input type="text" id="volume" value="" placeholder="Объем двигателя">
+            <input type="text" id="power" value="" placeholder="Мощность">
+        </div>
+        <div id="ploschad"></div>
+        <div id="stoimost"></div>
+        <button onclick="sum();">Рассчитать стоимость</button>
+        <script src="2.js"></script>
+    </body>
+</html>
