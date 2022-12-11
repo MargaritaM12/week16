@@ -3,7 +3,7 @@ function sum(brand, color) {
     switch (brand) {
         case "1":
             cost = 2000000;
-            break 
+            break
         case "2":
             cost = 2200000;
             break
